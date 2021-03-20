@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Syne Mono', monospace;
 }
 
 body {
@@ -16,6 +17,15 @@ h1 {
 .grid-container {
   display: grid;
 }
+
+.numbers, .operator {
+  font-size: 20px;
+  box-shadow: 5px 5px 5px 5px rgb(95, 90, 90);
+}
+
+.numbers:hover, .operator:hover {
+  font-size: 40px;
+} 
 
 #calculator {
   margin-top: 30vh;
